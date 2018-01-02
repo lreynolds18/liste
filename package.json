@@ -1,0 +1,33 @@
+{
+  "name": "liste",
+  "version": "1.0.0",
+  "description": "Liste REST Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lreynolds18/liste.git"
+  },
+  "keywords": [
+    "REST",
+    "api",
+    "javascript",
+    "node.js",
+    "mongoDB"
+  ],
+  "author": "lucas reynolds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lreynolds18/liste/issues"
+  },
+  "homepage": "https://github.com/lreynolds18/liste#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
