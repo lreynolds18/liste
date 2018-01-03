@@ -1,6 +1,6 @@
 # Liste Documentation
 
-The purpose of this project is to apply data science to real life problems.  I want to maximize the amount of groceries I can get, minimize the amount of money I spend of groceries, and minimize the amount of food I waste.
+The purpose of this project is to apply data science to real life problems.  I want to maximize the amount of groceries I can get, minimize the amount of money I spend on groceries, and minimize the amount of food I waste.
 
 Parts of the project
 1. Android App
