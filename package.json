@@ -25,9 +25,10 @@
   },
   "homepage": "https://github.com/lreynolds18/liste#readme",
   "devDependencies": {
-    "nodemon": "^1.14.7"
+    "nodemon": "^1.15.1"
   },
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.2",
+    "mongoose": "^5.0.6"
   }
 }
