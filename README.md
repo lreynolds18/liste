@@ -16,3 +16,10 @@ Parts of the project
 4. IoT Scanner
 * TODO
 
+
+# LISTE
+# Installation
+npm install
+
+# Run
+npm run start
