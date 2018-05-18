@@ -1,3 +1,4 @@
+/*
 'use strict';
 
 var mongoose = require('mongoose');
@@ -45,4 +46,4 @@ exports.delete = function(req, res) {
     res.json({ message: 'Ingredient successfully deleted' });
   });
 };
-
+*/

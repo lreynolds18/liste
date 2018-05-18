@@ -1,3 +1,4 @@
+/*
 'use strict';
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
@@ -9,7 +10,7 @@ var IngredientSchema = new Schema({
   },
   amount: {
     type: String,
-    required: 'Enter the amount of the ingredient (format \"numeric_amount uniti\")'
+    required: 'Enter the amount of the ingredient (format \"numeric_amount unit\")'
   },
   created_date: {
     type: Date,
@@ -21,3 +22,4 @@ var IngredientSchema = new Schema({
 });
 
 module.exports = mongoose.model('Ingredients', IngredientSchema);
+*/

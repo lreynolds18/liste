@@ -1,7 +1,9 @@
+/*
 'use strict';
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
+*/
 // RecipeSchema is to keep track of recipes in mongodb
 // Example:
 //   RecipeSchema{
@@ -15,6 +17,8 @@ var Schema = mongoose.Schema;
 //     online_rating: '4.5/5',
 //     my_rating: '*/5'
 //   }
+
+/*
 var RecipeSchema = new Schema({
   name: {
     type: String,
@@ -33,19 +37,20 @@ var RecipeSchema = new Schema({
   },
   ingredients: {
     type: {type: String},
-    value: [String],
-    required: 'Enter the ingredients that are required to make meal (format: "numeric_amount unit ingredient_name")'
+    value: String,
+    required: 'Enter the ingredients that are required to make the meal (format: \"numeric_amount unit ingredient_name\")'
   },
   instructions: {
     type: {type: String},
-    value: [String],
+    value: String,
     required: 'Enter the steps required to make meal'
   },
   pictures: {
     type: {type: String},
-    value: [String]
+    value: String
   },
 });
 
 
 module.exports = mongoose.model('Recipes', RecipeSchema);
+*/

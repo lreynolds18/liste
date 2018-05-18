@@ -1,3 +1,4 @@
+/*
 'use strict';
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
@@ -22,3 +23,4 @@ var ShoppinglistSchema = new Schema({
 });
 
 module.exports = mongoose.model('Shopping_List', ShoppinglistSchema);
+*/
