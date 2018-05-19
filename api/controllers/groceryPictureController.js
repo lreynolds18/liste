@@ -28,7 +28,7 @@ exports.list_all = function(request, response, next) {
 
 // create new item
 exports.create = function(request, response, next) {
-  db.query('INSERT INTO grocery_picture(name, image, date) values($1, $2, $3', [request.body['name'], request.body['image'], Date()], (err, res) => {
+  db.query('INSERT INTO grocery_picture(name, image, date) values($1, $2, $3)', [request.body['name'], request.body['image'], Date()], (err, res) => {
     if (err) {
       response.status(500)
         .json({
